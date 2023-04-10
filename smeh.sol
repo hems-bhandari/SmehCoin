@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-contract SMEHcoin {
+contract SMEHcontract {
     mapping (address => uint256) public balances;
     mapping (address => mapping (address => uint256)) allowed;
     uint256 public totalSupply;
