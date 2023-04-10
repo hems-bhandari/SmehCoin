@@ -1,4 +1,2 @@
 # SmehContract
-SMEHcontract smart contract defines a mapping that associates addresses with balances, as well as a total supply of coins. The constructor function is called when the contract is deployed, and initializes the total supply of coins and assigns them all to the address that deploys the contract.
-
-Tried to do the thing mentioned above but probably failed miserably. 
+This SMEHcontract contract includes the transfer, balanceOf, approve, and transferFrom functions for transferring coins between addresses with permission, as well as the mint and burn functions for adding or removing coins from circulation. The owner of the contract can mint new coins, while any address with a balance can burn coins. The totalSupply variable tracks the total number of coins in circulation, and events are emitted for all transfers and approvals.
